@@ -23,18 +23,18 @@ const Home: NextPage = () => {
         </Box>
       }
     >
-      <Box as="main">
-        <Page
-          title="Settings"
-          description="Manage your settings"
-          variant="settings"
-        >
-          <Box>
-            <Button variant="primary">Text</Button>
-          </Box>
-          <Text>chakra ui </Text>
-        </Page>
-      </Box>
+      <Page
+        title="Settings"
+        description="Manage your settings"
+        variant="settings"
+      >
+        <Box>
+          <Button colorScheme="primary" size="md">
+            Button
+          </Button>
+        </Box>
+        <Text fontSize="sm">chakra ui </Text>
+      </Page>
     </AppShell>
   );
 };
